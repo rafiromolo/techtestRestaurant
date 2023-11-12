@@ -15,4 +15,5 @@ npm run dev
 
 ## Installing dependencies
 react-bootstrap: npm install react-bootstrap bootstrap
+
 semantic-ui: npm install semantic-ui-react semantic-ui-css
