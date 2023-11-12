@@ -1,0 +1,72 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.judul h1 {
+  font-weight: 300;
+}
+
+.judul p {
+  font-weight: 100;
+}
+
+.semua .daftar .row:nth-child(2) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0;
+  padding-inline: 0;
+  /* height: 1000px; */
+}
+
+.semua .daftar .row:nth-child(2) img {
+  width: 100%;
+  height: 200px;
+}
+
+.semua .daftar .row:nth-child(2) h5 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.semua .daftar .row:nth-child(2) .butcontainer {
+  position: relative;
+}
+
+.semua .daftar .row:nth-child(2) .butcontainer .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.semua .daftar .row:nth-child(2) .learn-more {
+  width: 100%;
+  margin-bottom: 50px;
+  background-color: #1e2342;
+  border: none;
+  color: white;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.semua .load .butcontainer {
+  position: relative;
+}
+
+.semua .load .butcontainer .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.semua .load .load-more {
+  width: 30%;
+  margin-bottom: 50px;
+  background-color: #1e2342;
+  border: none;
+  color: white;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 10px;
+}
