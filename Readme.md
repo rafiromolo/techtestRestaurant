@@ -19,4 +19,4 @@ react-bootstrap: npm install react-bootstrap bootstrap
 semantic-ui: npm install semantic-ui-react semantic-ui-css
 
 # Deploy Site
-https://calm-clafoutis-3506aa.netlify.app/
+https://restaurant-romolo-fe001.netlify.app/
